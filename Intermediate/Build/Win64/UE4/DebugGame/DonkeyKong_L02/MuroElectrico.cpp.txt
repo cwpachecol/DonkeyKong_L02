@@ -1,0 +1,5 @@
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
+D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\MuroElectrico.h
+D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\Muro.h
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4\Inc\DonkeyKong_L02\Muro.generated.h
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4\Inc\DonkeyKong_L02\MuroElectrico.generated.h

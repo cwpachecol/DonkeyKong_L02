@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DonkeyKong_L02.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{48A3A308-30E5-4C3D-BD36-E9D756F296E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DonkeyKong_L02.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DonkeyKong_L02Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{38BDE8CD-677A-40AC-9310-D0FFD9A52731}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DonkeyKong_L02">
+      <UniqueIdentifier>{B7D93BFF-406A-4E71-B4A6-F267E41C54F7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Barril.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Barril.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Capsula.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Capsula.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\componentePlataforma.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\componentePlataforma.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Disparador.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Disparador.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\DonkeyKong_L02\DonkeyKong_L02.Build.cs">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\DonkeyKong_L02.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\DonkeyKong_L02.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\DonkeyKong_L02Character.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\DonkeyKong_L02Character.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\DonkeyKong_L02GameMode.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\DonkeyKong_L02GameMode.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Esfera.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Esfera.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Muro.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Muro.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\MuroElectrico.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\MuroElectrico.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\MuroEnvenenado.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\MuroEnvenenado.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\MuroLadrillo.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\MuroLadrillo.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Obstaculo.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Obstaculo.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\ObstaculoMuro.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\ObstaculoMuro.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Projectile.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Projectile.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02/Obstaculo.h
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4\Inc\DonkeyKong_L02\Obstaculo.generated.h

@@ -1,0 +1,12 @@
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\DebugGame\DonkeyKong_L02\Definitions.DonkeyKong_L02.h
+D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\MuroEnvenenado.h
+D:\src_SIS457\DonkeyKong_L02\Source\DonkeyKong_L02\Muro.h
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\Muro.generated.h
+D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_L02\MuroEnvenenado.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticlePerfStats.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
