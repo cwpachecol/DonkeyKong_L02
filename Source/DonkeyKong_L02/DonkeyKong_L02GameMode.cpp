@@ -13,6 +13,10 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Disparador.h"
+#include "Muro.h"
+#include "MuroElectrico.h"
+#include "MuroEnvenenado.h"
+#include "MuroLadrillo.h"
 
 ADonkeyKong_L02GameMode::ADonkeyKong_L02GameMode()
 {
@@ -108,6 +112,30 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 
 	ADisparador* disparador01 = GetWorld()->SpawnActor<ADisparador>(ADisparador::StaticClass(), SpawnLocationDisparador);
 
+	
+	FVector posicionMuro = FVector(1160.0f, 0.0f, 200.f);
+	FRotator rotacionMuro = FRotator(0.0f, 0.0f, 10.0f);
+	FTransform SpawnLocationMuro;
+	SpawnLocationMuro.SetRotation(FQuat(rotacionMuro));
+	SpawnLocationMuro.SetLocation(posicionMuro);
+
+	AMuroElectrico* me01 = GetWorld()->SpawnActor<AMuroElectrico>(AMuroElectrico::StaticClass(), SpawnLocationMuro);
+
+	aMuros.Add(me01);
+
+	posicionMuro.Y = 300.0f;
+	SpawnLocationMuro.SetLocation(posicionMuro);
+
+	AMuroEnvenenado* me02 = GetWorld()->SpawnActor<AMuroEnvenenado>(AMuroEnvenenado::StaticClass(), SpawnLocationMuro);
+	aMuros.Add(me02);
+
+	posicionMuro.Y = 500.0f;
+	SpawnLocationMuro.SetLocation(posicionMuro);
+
+	AMuroLadrillo* me03 = GetWorld()->SpawnActor<AMuroLadrillo>(AMuroLadrillo::StaticClass(), SpawnLocationMuro);
+	aMuros.Add(me03);
+
+	
 	GetWorld()->GetTimerManager().SetTimer(SpawnBarrilTimerHandle, this, &ADonkeyKong_L02GameMode::SpawnBarril, 3.0f, true);
 	
 }

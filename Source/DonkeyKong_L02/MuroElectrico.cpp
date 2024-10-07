@@ -5,4 +5,17 @@
 
 AMuroElectrico::AMuroElectrico()
 {
+	nivelCargaElectrica = 200;
+}
+
+void AMuroElectrico::ejercerAccion()
+{
+}
+
+void AMuroElectrico::descargarElectricidad()
+{
+}
+
+void AMuroElectrico::cargarElectricidad()
+{
 }

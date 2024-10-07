@@ -39,3 +39,7 @@ void AMuroLadrillo::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+
+void AMuroLadrillo::ejercerAccion()
+{
+}

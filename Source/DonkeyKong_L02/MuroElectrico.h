@@ -14,7 +14,14 @@ class DONKEYKONG_L02_API AMuroElectrico : public AMuro
 {
 	GENERATED_BODY()
 	
+protected:
+	int32 nivelCargaElectrica;
 public:
 	AMuroElectrico();
+
+	virtual void ejercerAccion() override;
+
+	virtual void descargarElectricidad();
+	virtual void cargarElectricidad();
 
 };

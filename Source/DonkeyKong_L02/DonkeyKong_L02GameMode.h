@@ -11,6 +11,7 @@ class AcomponentePlataforma;
 class ADonkeyKong_L02Character;
 class ABarril;
 class AEsfera;
+class AMuro;
 
 UCLASS(minimalapi)
 class ADonkeyKong_L02GameMode : public AGameModeBase
@@ -31,7 +32,8 @@ protected:
 	virtual void BeginPlay() override;
 
 	TArray<int32> aComponentesPlataformaMoviles;
-	
+	TArray<AMuro*> aMuros;
+
 private:
 	FTimerHandle SpawnBarrilTimerHandle;
 	void SpawnBarril();

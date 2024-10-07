@@ -41,3 +41,7 @@ void AMuroEnvenenado::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+
+void AMuroEnvenenado::ejercerAccion()
+{
+}

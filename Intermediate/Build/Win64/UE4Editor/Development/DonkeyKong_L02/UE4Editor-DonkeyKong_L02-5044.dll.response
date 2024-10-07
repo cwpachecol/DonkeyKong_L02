@@ -1,0 +1,99 @@
+/MANIFEST:EMBED
+/MANIFESTINPUT:"C:\Program Files\Epic Games\UE_4.27\Engine\Build\Windows\Resources\Default-Win64.manifest"
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:12000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\DonkeyKong_L02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Barril.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Capsula.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\componentePlataforma.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Disparador.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\DonkeyKong_L02.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\DonkeyKong_L02Character.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\DonkeyKong_L02GameMode.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Esfera.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Muro.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\MuroElectrico.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\MuroEnvenenado.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\MuroLadrillo.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Obstaculo.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\ObstaculoMuro.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Projectile.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Barril.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Capsula.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\componentePlataforma.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Disparador.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\DonkeyKong_L02.init.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\DonkeyKong_L02Character.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\DonkeyKong_L02GameMode.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Esfera.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Muro.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\MuroElectrico.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\MuroEnvenenado.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\MuroLadrillo.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Obstaculo.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\ObstaculoMuro.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Projectile.gen.cpp.obj"
+"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\Default.rc2.res"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+/OUT:"D:\src_SIS457\DonkeyKong_L02\Binaries\Win64\UE4Editor-DonkeyKong_L02-5044.dll"
+/IMPLIB:"D:\src_SIS457\DonkeyKong_L02\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_L02\UE4Editor-DonkeyKong_L02-5044.suppressed.lib"
+/PDB:"D:\src_SIS457\DonkeyKong_L02\Binaries\Win64\UE4Editor-DonkeyKong_L02-5044.pdb"
+/ignore:4078

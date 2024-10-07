@@ -29,5 +29,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	
+	virtual void ejercerAccion() {};
+	//virtual void ejercerAccion() = 0;
+	//PURE_VIRUAL(AMuro::ejercerAccion, );
 };
