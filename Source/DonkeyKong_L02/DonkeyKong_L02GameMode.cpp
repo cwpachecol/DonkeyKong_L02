@@ -17,6 +17,7 @@
 #include "MuroElectrico.h"
 #include "MuroEnvenenado.h"
 #include "MuroLadrillo.h"
+#include "Inventario.h"
 
 ADonkeyKong_L02GameMode::ADonkeyKong_L02GameMode()
 {
@@ -138,7 +139,20 @@ void ADonkeyKong_L02GameMode::BeginPlay()
 	
 	GetWorld()->GetTimerManager().SetTimer(SpawnBarrilTimerHandle, this, &ADonkeyKong_L02GameMode::SpawnBarril, 3.0f, true);
 	
+	//Crear 4 Inventario
+	for (int i = 0; i <= 4; i++)
+	{
+		AInventario* inventarioSpawneado = GetWorld()->SpawnActor<AInventario>(AInventario::StaticClass());
+		if (inventarioSpawneado)
+		{
+			//If the Spawn succeeds, set the Spawned inventory to the local one
+			//and log the success string
+			inventario = inventarioSpawneado;
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("%s ha sido creado"), *inventario->GetName()));				
+		}
+	}
 }
+
 
 void ADonkeyKong_L02GameMode::SpawnBarril()
 {

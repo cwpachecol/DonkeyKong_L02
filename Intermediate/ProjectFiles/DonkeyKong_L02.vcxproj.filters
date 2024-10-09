@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DonkeyKong_L02.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{48A3A308-30E5-4C3D-BD36-E9D756F296E2}</UniqueIdentifier>
+      <UniqueIdentifier>{298AAC9C-BE48-4ED0-9F88-350AD860CF55}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DonkeyKong_L02.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\DonkeyKong_L02Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{38BDE8CD-677A-40AC-9310-D0FFD9A52731}</UniqueIdentifier>
+      <UniqueIdentifier>{7AE8DD5E-4B89-49E3-9C85-93490A921AD1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DonkeyKong_L02">
-      <UniqueIdentifier>{B7D93BFF-406A-4E71-B4A6-F267E41C54F7}</UniqueIdentifier>
+      <UniqueIdentifier>{E156ACA6-4FB1-47AA-9C5C-B1E6CFA20D33}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\DonkeyKong_L02\Barril.cpp">
       <Filter>Source\DonkeyKong_L02</Filter>
@@ -83,6 +85,12 @@
     <ClInclude Include="..\..\Source\DonkeyKong_L02\Esfera.h">
       <Filter>Source\DonkeyKong_L02</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Inventario.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Inventario.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\DonkeyKong_L02\Muro.cpp">
       <Filter>Source\DonkeyKong_L02</Filter>
     </ClCompile>
@@ -117,6 +125,12 @@
       <Filter>Source\DonkeyKong_L02</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DonkeyKong_L02\ObstaculoMuro.h">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DonkeyKong_L02\Posion.cpp">
+      <Filter>Source\DonkeyKong_L02</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DonkeyKong_L02\Posion.h">
       <Filter>Source\DonkeyKong_L02</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\DonkeyKong_L02\Projectile.cpp">

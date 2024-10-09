@@ -12,6 +12,7 @@ class ADonkeyKong_L02Character;
 class ABarril;
 class AEsfera;
 class AMuro;
+class AInventario;
 
 UCLASS(minimalapi)
 class ADonkeyKong_L02GameMode : public AGameModeBase
@@ -40,6 +41,8 @@ private:
 
 	int32 contadorBarriles;
 	const int32 numeroMaximoBarriles = 3;
+
+	AInventario* inventario;
 };
 
 
